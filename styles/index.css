@@ -1,15 +1,15 @@
 #fon {
     background-color: rgb(255, 255, 255);
-    padding: 10px;
 }
-
+.fon2 {
+    width: 100%;
+            
+}
 .slidecontainer {
     width: 100%;
-
 }
 
 .slider {
-
     width: 100%;
     height: 25px;
     background: #d3d3d3;
@@ -18,16 +18,18 @@
 #block1{
     height: 200px;
     width: 200px;
+    margin: 20px;
     background-color: red;
-    position: fixed;
-    left:5%;
+    right: 0%;
+    position: absolute;
     top: 100px;
 }
 #block2{
     height: 200px;
     width: 200px;
+    margin: 20px;
     background-color: blue;
-    position: fixed;
-    left: 80%;
+    position: absolute;
+    left: 0%;
     top: 500px;
 }
